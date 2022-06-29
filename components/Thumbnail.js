@@ -15,7 +15,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         layout="responsive"
         width={1920}
         height={1080}
-      />
+       alt='images'/>
       <div className="p-2 text-gray-300">
         <p className="truncate max-w-md">{result.overview}</p>
         <h2 className="mt-2 text-2xl transition-all duration-100 ease-in-out group-hover:font-bold">
